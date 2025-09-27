@@ -10,7 +10,10 @@ const photoData = [
     { name: "yushi", type: "benefit", description: "poppop applemusic lucky draw", image: "yushi-benefit-poppop-applemusic-lucky-draw.avif" },
     { name: "yushi", type: "benefit", description: "poppop jump up", image: "yushi-benefit-poppop-jump-up.avif" },
     { name: "yushi", type: "benefit", description: "songbird countdown live event tmon", image: "yushi-benefit-songbird-countdown-live-event-tmon.avif" },
-    { name: "yushi", type: "benefit", description: "songbird dear my muse", image: "yushi-benefit-songbird-dear-my-muse.avif" }
+    { name: "yushi", type: "benefit", description: "songbird dear my muse", image: "yushi-benefit-songbird-dear-my-muse.avif" },
+    { name: "yushi", type: "benefit", description: "songbird kms", image: "yushi-benefit-songbird-kms.avif" },
+    { name: "yushi", type: "benefit", description: "songbird kms", image: "yushi-benefit-songbird-kms-2.avif" },
+    { name: "yushi", type: "benefit", description: "songbird ktown4u", image: "yushi-benefit-songbird-ktown4u.avif" },
 ];
 
 // typerwriter variables
@@ -55,7 +58,7 @@ async function loadImages() {
     const gridContainer = document.getElementById('grid-container');
     
     photoData.forEach(data => {
-        const imagePath = data.image ? `img/bst-wishlist/${data.image}` : '';
+        const imagePath = data.image ? `img/pcimgs/${data.image}` : '';
         createPhotoCard(imagePath, data, gridContainer);
     });
 }

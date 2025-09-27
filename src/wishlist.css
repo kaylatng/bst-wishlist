@@ -45,9 +45,9 @@ body {
 
 .grid-container {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     gap: 5px;
-    max-width: 380px; /* change card spacing */
+    max-width: 510px; /* change card spacing (4/380) */
     width: 100%;
     margin-top: 10px;
 }
