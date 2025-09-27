@@ -1,3 +1,5 @@
+/* filter.css */
+
 .filter-container {
     display: flex;
     gap: 10px;
@@ -13,6 +15,7 @@
     border-radius: 20px;
     cursor: pointer;
     font-size: 14px;
+    font-family: inherit;
     transition: all 0.3s ease;
 }
 
