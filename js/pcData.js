@@ -64,6 +64,7 @@ const photoData = [
     { name: "riku", type: "benefit", description: "wish music korea", image: "riku-benefit-wish-music-korea.avif" },
     { name: "riku", type: "collabo", description: "dicon volume n°29 a type", image: "riku-collabo-dicon-volume-no29-a-type.avif" },
     { name: "riku", type: "collabo", description: "dicon volume n°29 b type", image: "riku-collabo-dicon-volume-no29-b-type.avif" },
+    { name: "riku", type: "concert", description: "asia tour log in random trading card special", image: "riku-concert-asia-tour-log-in-random-trading-card-special.avif" },
     { name: "riku", type: "etc", description: "coupon card office worker", image: "riku-etc-coupon-card-office-worker.avif" },
     { name: "riku", type: "etc", description: "[one summer wish] wings keyring", image: "riku-etc-one-summer-wish-wings-keyring.avif" },
     { name: "riku", type: "md", description: "deco sticker set", image: "riku-md-deco-sticker-set.avif" },
