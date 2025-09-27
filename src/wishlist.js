@@ -1,21 +1,5 @@
 // wishlist.js
 
-// data with name, type, description, img path
-const photoData = [
-    { name: "yushi", type: "album", description: "songbird letter ver", image: "yushi-album-songbird-letter.avif" },
-    { name: "yushi", type: "album", description: "songbird member ver", image: "yushi-album-songbird-member.avif" },
-    { name: "yushi", type: "album", description: "songbird member ver", image: "yushi-album-songbird-member-2.avif" },
-    { name: "yushi", type: "album", description: "songbird member ver", image: "yushi-album-songbird-member-3.avif" },
-    { name: "yushi", type: "album", description: "steady finding psyche", image: "yushi-album-steady-finding-psyche.avif" },
-    { name: "yushi", type: "benefit", description: "poppop applemusic lucky draw", image: "yushi-benefit-poppop-applemusic-lucky-draw.avif" },
-    { name: "yushi", type: "benefit", description: "poppop jump up", image: "yushi-benefit-poppop-jump-up.avif" },
-    { name: "yushi", type: "benefit", description: "songbird countdown live event tmon", image: "yushi-benefit-songbird-countdown-live-event-tmon.avif" },
-    { name: "yushi", type: "benefit", description: "songbird dear my muse", image: "yushi-benefit-songbird-dear-my-muse.avif" },
-    { name: "yushi", type: "benefit", description: "songbird kms", image: "yushi-benefit-songbird-kms.avif" },
-    { name: "yushi", type: "benefit", description: "songbird kms", image: "yushi-benefit-songbird-kms-2.avif" },
-    { name: "yushi", type: "benefit", description: "songbird ktown4u", image: "yushi-benefit-songbird-ktown4u.avif" },
-];
-
 // typerwriter variables
 const typingTexts = ["yushi pobs", "yushi album pcs", "yushi md pcs", "riku pobs", "riku album pcs", "riku md pcs"];
 let currentTextIndex = 0;
